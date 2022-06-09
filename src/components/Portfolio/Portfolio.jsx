@@ -24,22 +24,25 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://mo-store-819d7.web.app/" target={"_blank"}>
+          <div>
+            <button className="projectBtn">hello</button>
+          <a className="projects" href="https://mo-store-819d7.web.app/" target={"_blank"}>
           <img src={Sidebar} alt="" />
           </a>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://walton-werehouse.web.app/" target={"_blank"}>
+        <a className="projects" href="https://walton-werehouse.web.app/" target={"_blank"}>
           <img src={Ecommerce} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://smmartwatch.netlify.app/" target={"_blank"}>
+        <a className="projects" href="https://smmartwatch.netlify.app/" target={"_blank"}>
           <img src={MusicApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-        <a href="https://chapai-matchmaking.web.app/" target={"_blank"}>
+        <a className="projects" href="https://chapai-matchmaking.web.app/" target={"_blank"}>
           <img src={HOC} alt="" />
           </a>
         </SwiperSlide>
