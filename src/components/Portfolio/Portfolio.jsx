@@ -24,7 +24,9 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://mo-store-819d7.web.app/" target={"_blank"}>
           <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />

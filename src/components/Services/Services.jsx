@@ -7,6 +7,7 @@ import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
+import Link from "react-scroll/modules/components/Link";
 
 const Services = () => {
   // context
@@ -26,14 +27,10 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
+        
+        <Link to="contact" smooth={true} spy={true}>
+          <button className="button i-button">Hire me</button>
+        </Link>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -72,7 +69,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "As a freelance UI/UX Designer I am creating user friendly interfaces that helped my clients achieving their business objectives."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
