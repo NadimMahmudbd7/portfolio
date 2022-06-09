@@ -29,13 +29,19 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href="https://walton-werehouse.web.app/" target={"_blank"}>
           <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href="https://smmartwatch.netlify.app/" target={"_blank"}>
           <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href="https://chapai-matchmaking.web.app/" target={"_blank"}>
           <img src={HOC} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

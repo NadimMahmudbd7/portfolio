@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+import Insta from "@iconscout/react-unicons/icons/uil-linkedin";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
@@ -12,9 +12,15 @@ const Footer = () => {
       <div className="f-content">
         <span>nadim.mahmud1337@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+          <a href="https://www.linkedin.com/in/nadim-mahmud-49127b164/" target={"_blank"}>
+            <Insta color="white" size={"3rem"} />
+          </a>
+          <a href="https://www.facebook.com/nadimmahmudbd7/" target={"_blank"}>
+            <Facebook color="white" size={"3rem"} />
+          </a>
+          <a href="https://github.com/NadimMahmudbd7" target={"_blank"}>
+            <Gitub color="white" size={"3rem"} />
+          </a>
         </div>
       </div>
     </div>
