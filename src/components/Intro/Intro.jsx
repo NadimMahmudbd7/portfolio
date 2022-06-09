@@ -19,13 +19,17 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+
 const Intro = () => {
+  
   // Transition
   const transition = { duration: 2, type: "spring" };
 
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
+  
 
   return (
     <div className="Intro" id="Intro">
@@ -36,12 +40,16 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Nadim Mahmud</span>
           <span>
-          I am devoted and ardent about MERN stack development. My motive is to acquire insight and knowledge into this spectrum.<br/> I intend to make functional websites with adequate UI/UX.
+            I am devoted and ardent about MERN stack development. My motive is to acquire insight and knowledge into this spectrum.<br /> I intend to make functional websites with adequate UI/UX.
           </span>
         </div>
-        <a href='Nadim resume.pdf' download='Nadim Resume.pdf'>
-          <button className="button s-button">Download CV</button>
-        </a>
+        <span>
+          
+            <a href="https://www.upload.ee/download/14215173/5496a699b0651b28a9b2/Nadim_Resume.pdf">
+            <button className="button s-button">Download CV</button>
+            </a>
+         
+        </span>
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/NadimMahmudbd7" target={"_blank"}><img src={Github} alt="" /></a>
@@ -64,7 +72,7 @@ const Intro = () => {
             <img src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-            <img style={{width:"10rem"}} src={Amazon} alt="" />
+            <img style={{ width: "10rem" }} src={Amazon} alt="" />
           </div>{" "}
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
